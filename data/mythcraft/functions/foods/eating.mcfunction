@@ -5,6 +5,5 @@ tag @s[tag=bakedApple] remove bakedApple
 
 tag @s[nbt={SelectedItem:{id:"minecraft:rotten_flesh",tag:{Baked:1,display:{Name:'{"text":"Boiled Flesh","italic":false}'}}}}] add boiledFlesh
 execute as @s[tag=boiledFlesh] if score @s eatFlesh matches 1.. run effect clear @s hunger
-execute as @s[tag=boiledFlesh] if score @s eatFlesh matches 1.. run effect give @s resistance
 scoreboard players reset @s eatFlesh
 tag @s[tag=boiledFlesh] remove boiledFlesh
