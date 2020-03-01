@@ -1,0 +1,1 @@
+give @s minecraft:bat_spawn_egg{display:{Name:'{"text":"Forge","color":"gold"}'},EntityTag:{NoAI:1b,Tags:["forgespawn"]}} 1

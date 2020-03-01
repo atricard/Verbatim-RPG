@@ -1,0 +1,1 @@
+execute if score @s fishLvl >= @s fishMax run function mythcraft:stats/fishlvlup

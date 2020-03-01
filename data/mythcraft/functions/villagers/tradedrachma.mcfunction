@@ -1,0 +1,2 @@
+data modify entity @s Offers.Recipes[].buy{id:"minecraft:emerald"} merge value {id:"minecraft:gold_nugget",tag:{display:{Name:'{"text":"Drachma","italic":false}'}}}
+data modify entity @s Offers.Recipes[].sell{id:"minecraft:emerald"} merge value {id:"minecraft:gold_nugget",tag:{display:{Name:'{"text":"Drachma","italic":false}'}}}

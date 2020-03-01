@@ -1,0 +1,1 @@
+execute if score @s combatLvl >= @s combatMax run function mythcraft:stats/combatlvlup
