@@ -19,6 +19,9 @@ execute as @a[scores={viewStats=1..}] run tellraw @s ["",{"text":"=======","bold
 execute as @a[scores={viewStats=1..}] run scoreboard players reset @s viewStats
 scoreboard players enable @a viewStats
 
+execute as @a run function mythcraft:foods/eating
+function mythcraft:foods/cooking
+
 function mythcraft:master/createmob
 execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:smithing_table",Count:1b}}] at @s align xyz positioned ~0.5 ~ ~0.5 run function mythcraft:benches/forge
 

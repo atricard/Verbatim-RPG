@@ -23,7 +23,9 @@ scoreboard objectives add sellLvl dummy
 scoreboard objectives add sell dummy
 scoreboard objectives add sellMax dummy
 ##########################################
-
+scoreboard objectives add eatApple minecraft.used:minecraft.apple
+scoreboard objectives add eatFlesh minecraft.used:minecraft.rotten_flesh
+##########################################
 scoreboard objectives add health dummy
 scoreboard objectives add doDMG minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add comboDMG minecraft.custom:minecraft.damage_dealt
