@@ -19,32 +19,80 @@ scoreboard objectives add fishLvl dummy
 scoreboard objectives add fish dummy
 scoreboard objectives add fishMax dummy
 
+scoreboard objectives add forageLvl dummy
+scoreboard objectives add forage dummy
+scoreboard objectives add forageMax dummy
+
 scoreboard objectives add sellLvl dummy
 scoreboard objectives add sell dummy
 scoreboard objectives add sellMax dummy
 ##########################################
 scoreboard objectives add eatApple minecraft.used:minecraft.apple
+scoreboard objectives add eatBeetroot minecraft.used:minecraft.beetroot
+scoreboard objectives add eatBerries minecraft.used:minecraft.sweet_berries
+scoreboard objectives add eatCarrot minecraft.used:minecraft.carrot
 scoreboard objectives add eatFlesh minecraft.used:minecraft.rotten_flesh
+
+scoreboard objectives add eatBeetSoup minecraft.used:minecraft.beetroot_soup
+scoreboard objectives add eatGapple minecraft.used:minecraft.golden_apple
+scoreboard objectives add eatMushStew minecraft.used:minecraft.mushroom_stew
+scoreboard objectives add eatRabbitSoup minecraft.used:minecraft.rabbit_stew
 ##########################################
 scoreboard objectives add health dummy
 scoreboard objectives add doDMG minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add comboDMG minecraft.custom:minecraft.damage_dealt
-
+#####################################
+scoreboard objectives add fireD dummy
+scoreboard objectives add iceD dummy
+scoreboard objectives add lightningD dummy
+scoreboard objectives add ConfuseD dummy
+scoreboard objectives add windD dummy
+#####################################
+scoreboard objectives add modA dummy
+scoreboard objectives add modB dummy
+scoreboard objectives add modC dummy
+#####################################
+scoreboard objectives add interact minecraft.custom:minecraft.talked_to_villager
+#####################################
+scoreboard objectives add fallCm minecraft.custom:minecraft.fall_one_cm
+scoreboard objectives add dmgDealt minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add breedAnimal minecraft.custom:minecraft.animals_bred
+scoreboard objectives add caughtFish minecraft.custom:minecraft.fish_caught
+scoreboard objectives add trade minecraft.custom:minecraft.traded_with_villager
+scoreboard objectives add harvestHoney dummy
+scoreboard objectives add uproot dummy
+#####################################
+scoreboard objectives add breakGrass minecraft.mined:minecraft.grass
+scoreboard objectives add breakBigGrass minecraft.mined:minecraft.tall_grass
+scoreboard objectives add breakFern minecraft.mined:minecraft.fern
+scoreboard objectives add breakBigFern minecraft.mined:minecraft.large_fern
+#####################################
+scoreboard objectives add forgeMod dummy
+#####################################
+scoreboard objectives add try dummy
+#####################################
+scoreboard objectives add xPoint dummy
+scoreboard objectives add yPoint dummy
+scoreboard objectives add zPoint dummy
+#####################################
+scoreboard objectives add regenLootTimer dummy
+#####################################
+scoreboard objectives add dropPaper minecraft.dropped:minecraft.paper
+#####################################
 scoreboard objectives add spellTimer dummy
 scoreboard objectives add homingTimer dummy
-
+#####################################
 scoreboard objectives add dungeonTaper dummy
-
+#####################################
 scoreboard objectives add ModNumber dummy
 execute unless entity @e[type=minecraft:armor_stand,tag=mod] run function mythcraft:master/tags 
+#####################################
 
 gamerule mobGriefing false
 gamerule doInsomnia false
 
 scoreboard objectives add ten dummy
 scoreboard players set tenPH ten 10
-
-scoreboard objectives add YPos dummy
 
 scoreboard objectives add viewStats trigger
 
@@ -54,6 +102,6 @@ bossbar set combo max 200
 bossbar set combo color purple
 bossbar set combo style notched_10
 
+#####################################
 tellraw @a ["",{"text":"[Mythcraft]","color":"gold"},{"text":" Reloaded!","color":"dark_purple"}]
-
-function mythcraft:master/scores
+#####################################

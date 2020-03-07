@@ -19,6 +19,10 @@ scoreboard players set @s fishLvl 0
 scoreboard players set @s fish 0
 scoreboard players set @s fishMax 10
 
+scoreboard players set @s forageLvl 0
+scoreboard players set @s forage 0
+scoreboard players set @s forageMax 10
+
 scoreboard players set @s sellLvl 0
 scoreboard players set @s sell 0
 scoreboard players set @s sellMax 10

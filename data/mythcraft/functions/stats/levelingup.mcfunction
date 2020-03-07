@@ -19,6 +19,11 @@ scoreboard players add @s[scores={caughtFish=1..}] fishLvl 1
 title @s[scores={caughtFish=1..}] actionbar ["",{"text":"+1 Fishing XP (","color":"green"},{"score":{"name":"@s","objective":"fishLvl"},"color":"green"},{"text":"/","color":"green"},{"score":{"name":"@s","objective":"fishMax"},"color":"green"},{"text":")","color":"green"}]
 scoreboard players set @s[scores={caughtFish=1..}] caughtFish 0
 
+function mythcraft:stats/forage_master
+scoreboard players add @s[scores={uproot=1..}] forageLvl 1
+title @s[scores={uproot=1..}] actionbar ["",{"text":"+1 Foraging XP (","color":"green"},{"score":{"name":"@s","objective":"forageLvl"},"color":"green"},{"text":"/","color":"green"},{"score":{"name":"@s","objective":"forageMax"},"color":"green"},{"text":")","color":"green"}]
+scoreboard players set @s[scores={uproot=1..}] uproot 0
+
 scoreboard players add @s[scores={trade=1..}] sellLvl 1
 title @s[scores={trade=1..}] actionbar ["",{"text":"+1 Trading XP (","color":"green"},{"score":{"name":"@s","objective":"sellLvl"},"color":"green"},{"text":"/","color":"green"},{"score":{"name":"@s","objective":"sellMax"},"color":"green"},{"text":")","color":"green"}]
 scoreboard players set @s[scores={trade=1..}] trade 0
