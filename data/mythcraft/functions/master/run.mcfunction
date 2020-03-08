@@ -23,8 +23,10 @@ scoreboard players enable @a viewStats
 execute as @a run function mythcraft:foods/eating
 function mythcraft:foods/cooking
 
-function mythcraft:master/lectern/master
-function mythcraft:master/lectern/bench_master
+function mythcraft:master/lectern/master_scroll
+function mythcraft:master/lectern/crafting/bench_master
+
+function mythcraft:master/scrolls/master
 
 function mythcraft:master/createmob
 execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:smithing_table",Count:1b}}] at @s align xyz positioned ~0.5 ~ ~0.5 run function mythcraft:benches/forge
