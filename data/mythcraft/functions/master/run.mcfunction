@@ -24,10 +24,15 @@ execute as @a run function mythcraft:foods/eating
 function mythcraft:foods/cooking
 
 function mythcraft:master/lectern/master_scroll
-function mythcraft:master/lectern/crafting/bench_master
+execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:paper",Count:1b}},nbt=!{Item:{tag:{Scroll:1}}}] at @s if block ~ ~-0.5 ~ minecraft:lectern align xyz positioned ~0.5 ~ ~0.5 run function mythcraft:master/lectern/crafting/bench_master
 
-function mythcraft:master/scrolls/master
+function mythcraft:master/lectern/scrolls/master_scroll
+execute as @e[type=armor_stand,tag=spell,tag=ray] at @s run function mythcraft:master/lectern/raycast/master
+execute as @e[scores={currentDamage=1..}] run function mythcraft:master/damage
 
+function mythcraft:master/lectern/raycast/effects/mark
+
+execute as @e[type=armor_stand,tag=spell] run function mythcraft:master/lectern/raycast/effects/spell_end
 function mythcraft:master/createmob
 execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:smithing_table",Count:1b}}] at @s align xyz positioned ~0.5 ~ ~0.5 run function mythcraft:benches/forge
 

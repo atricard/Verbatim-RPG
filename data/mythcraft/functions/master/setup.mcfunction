@@ -38,19 +38,11 @@ scoreboard objectives add eatGapple minecraft.used:minecraft.golden_apple
 scoreboard objectives add eatMushStew minecraft.used:minecraft.mushroom_stew
 scoreboard objectives add eatRabbitSoup minecraft.used:minecraft.rabbit_stew
 ##########################################
-scoreboard objectives add health dummy
+scoreboard objectives add currentDamage dummy
+scoreboard objectives add health_store dummy
+scoreboard objectives add spellTimer dummy
 scoreboard objectives add doDMG minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add comboDMG minecraft.custom:minecraft.damage_dealt
-#####################################
-scoreboard objectives add fireD dummy
-scoreboard objectives add iceD dummy
-scoreboard objectives add lightningD dummy
-scoreboard objectives add ConfuseD dummy
-scoreboard objectives add windD dummy
-#####################################
-scoreboard objectives add modA dummy
-scoreboard objectives add modB dummy
-scoreboard objectives add modC dummy
 #####################################
 scoreboard objectives add interact minecraft.custom:minecraft.talked_to_villager
 #####################################
@@ -67,8 +59,6 @@ scoreboard objectives add breakBigGrass minecraft.mined:minecraft.tall_grass
 scoreboard objectives add breakFern minecraft.mined:minecraft.fern
 scoreboard objectives add breakBigFern minecraft.mined:minecraft.large_fern
 #####################################
-scoreboard objectives add forgeMod dummy
-#####################################
 scoreboard objectives add try dummy
 #####################################
 scoreboard objectives add xPoint dummy
@@ -79,13 +69,9 @@ scoreboard objectives add regenLootTimer dummy
 #####################################
 scoreboard objectives add dropPaper minecraft.dropped:minecraft.paper
 #####################################
-scoreboard objectives add spellTimer dummy
-scoreboard objectives add homingTimer dummy
-#####################################
 scoreboard objectives add dungeonTaper dummy
 #####################################
-scoreboard objectives add ModNumber dummy
-execute unless entity @e[type=minecraft:armor_stand,tag=mod] run function mythcraft:master/tags 
+scoreboard objectives add temperature dummy
 #####################################
 
 gamerule mobGriefing false
@@ -93,6 +79,9 @@ gamerule doInsomnia false
 
 scoreboard objectives add ten dummy
 scoreboard players set tenPH ten 10
+
+team add heat
+team modify heat color red
 
 scoreboard objectives add viewStats trigger
 

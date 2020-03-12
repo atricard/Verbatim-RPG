@@ -9,5 +9,5 @@ execute as @s[tag=get_pos] run loot replace entity @s weapon.mainhand 1 mine ~ 2
 setblock ~ 255 ~ air
 tag @s remove get_pos
 scoreboard players reset @s dropPaper
-kill @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Blank Ender Scroll","color":"white","italic":false}'}}}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Blank Ender Scroll","color":"light_purple","italic":false}'}}}}]
 tellraw @s {"text":"Warp set.","color":"light_purple"}
