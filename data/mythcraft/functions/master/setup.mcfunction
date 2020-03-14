@@ -23,6 +23,10 @@ scoreboard objectives add forageLvl dummy
 scoreboard objectives add forage dummy
 scoreboard objectives add forageMax dummy
 
+scoreboard objectives add magicLvl dummy
+scoreboard objectives add magic dummy
+scoreboard objectives add magicMax dummy
+
 scoreboard objectives add sellLvl dummy
 scoreboard objectives add sell dummy
 scoreboard objectives add sellMax dummy
@@ -67,11 +71,12 @@ scoreboard objectives add zPoint dummy
 #####################################
 scoreboard objectives add regenLootTimer dummy
 #####################################
-scoreboard objectives add dropPaper minecraft.dropped:minecraft.paper
+scoreboard objectives add dropBook minecraft.dropped:minecraft.book
 #####################################
 scoreboard objectives add dungeonTaper dummy
 #####################################
 scoreboard objectives add temperature dummy
+scoreboard objectives add KO dummy
 #####################################
 
 gamerule mobGriefing false
@@ -82,6 +87,7 @@ scoreboard players set tenPH ten 10
 
 team add heat
 team modify heat color red
+team add players
 
 scoreboard objectives add viewStats trigger
 

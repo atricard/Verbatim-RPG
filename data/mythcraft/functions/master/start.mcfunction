@@ -23,6 +23,10 @@ scoreboard players set @s forageLvl 0
 scoreboard players set @s forage 0
 scoreboard players set @s forageMax 10
 
+scoreboard players set @s magicLvl 0
+scoreboard players set @s magic 0
+scoreboard players set @s magicMax 10
+
 scoreboard players set @s sellLvl 0
 scoreboard players set @s sell 0
 scoreboard players set @s sellMax 10

@@ -1,0 +1,1 @@
+execute if score @s magicLvl >= @s magicMax run function mythcraft:stats/magiclvlup

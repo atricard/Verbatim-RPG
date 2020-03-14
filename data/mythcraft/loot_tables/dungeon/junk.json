@@ -1,0 +1,168 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "min": 3,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:arrow",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 7
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "weight": 80,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "weight": 80,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_nugget",
+            "weight": 80,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Drachma\",\"italic\":false}'}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:torch",
+            "weight": 30,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:slime_ball",
+            "weight": 90,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_pearl",
+            "weight": 90,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "weight": 100
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bucket",
+            "weight": 100
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:barrel",
+            "weight": 100
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glass_bottle",
+            "weight": 80
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bell",
+            "weight": 110
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:fishing_rod",
+            "weight": 100
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ladder",
+            "weight": 50,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lantern"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cauldron",
+            "weight": 130
+          }
+        ]
+      }
+    ]
+  }

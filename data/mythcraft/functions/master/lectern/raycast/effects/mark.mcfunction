@@ -39,3 +39,4 @@ tag @e[type=minecraft:trident] add protect
 tag @e[type=minecraft:villager] add protect
 tag @e[type=minecraft:wandering_trader] add protect
 tag @e[type=minecraft:wither_skull] add protect
+team join players @e[tag=protect,type=!armor_stand,type=!area_effect_cloud]

@@ -19,7 +19,14 @@ scoreboard players add @s[scores={caughtFish=1..}] fishLvl 1
 title @s[scores={caughtFish=1..}] actionbar ["",{"text":"+1 Fishing XP (","color":"green"},{"score":{"name":"@s","objective":"fishLvl"},"color":"green"},{"text":"/","color":"green"},{"score":{"name":"@s","objective":"fishMax"},"color":"green"},{"text":")","color":"green"}]
 scoreboard players set @s[scores={caughtFish=1..}] caughtFish 0
 
-function mythcraft:stats/forage_master
+execute if score @s breakGrass matches 1.. run scoreboard players add @s uproot 1
+execute if score @s breakBigGrass matches 1.. run scoreboard players add @s uproot 1
+execute if score @s breakFern matches 1.. run scoreboard players add @s uproot 1
+execute if score @s breakBigFern matches 1.. run scoreboard players add @s uproot 1
+execute if score @s breakGrass matches 1.. run scoreboard players reset @s breakGrass
+execute if score @s breakBigGrass matches 1.. run scoreboard players reset @s breakBigGrass
+execute if score @s breakFern matches 1.. run scoreboard players reset @s breakFern
+execute if score @s breakBigFern matches 1.. run scoreboard players reset @s breakBigFern
 scoreboard players add @s[scores={uproot=1..}] forageLvl 1
 title @s[scores={uproot=1..}] actionbar ["",{"text":"+1 Foraging XP (","color":"green"},{"score":{"name":"@s","objective":"forageLvl"},"color":"green"},{"text":"/","color":"green"},{"score":{"name":"@s","objective":"forageMax"},"color":"green"},{"text":")","color":"green"}]
 scoreboard players set @s[scores={uproot=1..}] uproot 0
