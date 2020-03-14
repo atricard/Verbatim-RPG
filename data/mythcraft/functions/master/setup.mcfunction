@@ -75,9 +75,6 @@ scoreboard objectives add dropBook minecraft.dropped:minecraft.book
 #####################################
 scoreboard objectives add dungeonTaper dummy
 #####################################
-scoreboard objectives add temperature dummy
-scoreboard objectives add KO dummy
-#####################################
 
 gamerule mobGriefing false
 gamerule doInsomnia false
@@ -98,5 +95,5 @@ bossbar set combo color purple
 bossbar set combo style notched_10
 
 #####################################
-tellraw @a ["",{"text":"[MythcraftDnD Base Datapack]","color":"gold"},{"text":" Reloaded!","color":"dark_purple"}]
+tellraw @a ["",{"text":"[Verbatim RPG Base Datapack]","color":"red"},{"text":" Reloaded!","color":"yellow"}]
 #####################################
