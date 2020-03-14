@@ -4,13 +4,11 @@ function mythcraft:master/dungeonroomgen
 
 function mythcraft:master/spellmastertrue
 function mythcraft:master/combomaster
-function mythcraft:master/forge
+execute as @e[type=villager] run function mythcraft:villagers/tradedrachma
+execute as @e[type=wandering_trader] run function mythcraft:villagers/tradedrachma
 function mythcraft:master/enable
 
-execute as @a at @s run function mythcraft:master/replaceweaponmaster
-
 execute as @e[type=area_effect_cloud,tag=gatemech] at @s run function mythcraft:master/gatemech
-execute as @e[type=area_effect_cloud,tag=waypoint] at @s unless block ~ ~ ~ minecraft:chiseled_stone_bricks run function mythcraft:master/lectern
 #
 execute as @e[tag=bench] at @s if block ~ ~ ~ minecraft:air run kill @s
 execute as @e[type=armor_stand,tag=marker] at @s if block ~ ~-1.25 ~ minecraft:air run kill @s
@@ -22,18 +20,6 @@ scoreboard players enable @a viewStats
 
 execute as @a run function mythcraft:foods/eating
 function mythcraft:foods/cooking
-
-function mythcraft:master/lectern/master_scroll
-execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:book",Count:1b}},nbt=!{Item:{tag:{Tome:1}}}] at @s if block ~ ~-0.5 ~ minecraft:lectern align xyz positioned ~0.5 ~ ~0.5 run function mythcraft:master/lectern/crafting/bench_master
-
-function mythcraft:master/lectern/scrolls/master_scroll
-execute as @e[type=armor_stand,tag=spell,tag=ray] at @s run function mythcraft:master/lectern/raycast/master
-execute as @e[scores={currentDamage=1..}] run function mythcraft:master/damage
-
-function mythcraft:master/lectern/raycast/effects/mark
-
-execute as @e[type=armor_stand,tag=spell] run function mythcraft:master/lectern/raycast/effects/spell_end
-function mythcraft:master/createmob
 
 execute as @e[type=area_effect_cloud,tag=regrowLoot] at @s if block ~ ~ ~ air run function mythcraft:structuregen/dungeon/loot/timer_regen
 
