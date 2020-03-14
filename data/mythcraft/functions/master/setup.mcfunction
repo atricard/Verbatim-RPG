@@ -98,5 +98,5 @@ bossbar set combo color purple
 bossbar set combo style notched_10
 
 #####################################
-tellraw @a ["",{"text":"[Mythcraft]","color":"gold"},{"text":" Reloaded!","color":"dark_purple"}]
+tellraw @a ["",{"text":"[MythcraftDnD Base Datapack]","color":"gold"},{"text":" Reloaded!","color":"dark_purple"}]
 #####################################
