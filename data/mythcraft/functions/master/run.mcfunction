@@ -22,6 +22,7 @@ execute as @a run function mythcraft:foods/eating
 function mythcraft:foods/cooking
 
 execute as @e[type=area_effect_cloud,tag=regrowLoot] at @s if block ~ ~ ~ air run function mythcraft:structuregen/dungeon/loot/timer_regen
+execute as @e[type=area_effect_cloud,tag=regrowLoot] at @s if block ~ ~ ~ chest{Items:[]} run function mythcraft:structuregen/dungeon/loot/timer_regen
 
 execute as @a run function mythcraft:master/startrun
 execute as @a[tag=!start] run function mythcraft:master/start
