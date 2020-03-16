@@ -1,0 +1,1 @@
+execute if score @s sellLvl >= @s sellMax run function vrpg:stats/selllvlup

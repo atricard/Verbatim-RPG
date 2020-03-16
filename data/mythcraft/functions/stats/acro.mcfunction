@@ -1,1 +1,0 @@
-execute if score @s acroLvl >= @s acroMax run function mythcraft:stats/acrolvlup

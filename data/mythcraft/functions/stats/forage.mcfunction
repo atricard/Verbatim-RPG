@@ -1,1 +1,0 @@
-execute if score @s forageLvl >= @s forageMax run function mythcraft:stats/foragelvlup

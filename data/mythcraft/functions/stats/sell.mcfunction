@@ -1,1 +1,0 @@
-execute if score @s sellLvl >= @s sellMax run function mythcraft:stats/selllvlup

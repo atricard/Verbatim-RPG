@@ -1,1 +1,0 @@
-execute if score @s beeLvl >= @s beeMax run function mythcraft:stats/beelvlup

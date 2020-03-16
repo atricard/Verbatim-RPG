@@ -1,0 +1,1 @@
+execute if score @s acroLvl >= @s acroMax run function vrpg:stats/acrolvlup
