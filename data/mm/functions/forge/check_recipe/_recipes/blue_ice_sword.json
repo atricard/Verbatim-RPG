@@ -1,0 +1,16 @@
+{
+  "key": {
+    "i": {
+      "item": "minecraft:stick"
+    },
+    "s": {
+      "item": "minecraft:blue_ice"
+    }
+  },
+  "pattern": [["s--","s--","i--"],["-s-","-s-","-i-"],["--s","--s","--i"]],
+  "result": {
+    "item": "minecraft:wooden_sword",
+    "count": 1,
+    "nbt": "{verbatim:{id:13,item:1b,weapon:1b,max_durability:1200,durability:1200,base_durability:59},CustomModelData:18,display:{Name:'{\"text\":\"Blue Ice Sword\",\"italic\":false,\"color\":\"light_purple\"}'},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDLeast:323355,UUIDMost:876959,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:1.6,Operation:0,UUIDLeast:245942,UUIDMost:648348,Slot:\"mainhand\"}]}"
+  }
+}

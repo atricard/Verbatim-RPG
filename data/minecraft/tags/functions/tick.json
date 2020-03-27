@@ -1,5 +1,8 @@
 {
+	"replace": false,
 	"values":[
-		"vrpg:master/run"
+		"vrpg:master/run",
+		"vrpgaddon:master/run",
+		"mm:tick"
 	]
 }

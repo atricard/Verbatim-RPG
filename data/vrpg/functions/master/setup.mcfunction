@@ -91,5 +91,5 @@ bossbar set combo color purple
 bossbar set combo style notched_10
 
 #####################################
-tellraw @a ["",{"text":"[Verbatim RPG Base Datapack]","color":"red"},{"text":" Reloaded!","color":"yellow"}]
+tellraw @a ["",{"text":"[Verbatim RPG]","color":"dark_red"},{"text":" Reloaded!","color":"gold"}]
 #####################################

@@ -1,0 +1,14 @@
+{
+  "key": {
+    "i": {
+      "item": "minecraft:stick"
+    },
+    "s": 2
+  },
+  "pattern": [["s--","s--","i--"],["-s-","-s-","-i-"],["--s","--s","--i"]],
+  "result": {
+    "item": "minecraft:wooden_sword",
+    "count": 1,
+    "nbt": "{verbatim:{id:7,item:1b,weapon:1b,max_durability:1000,durability:1000,base_durability:59},CustomModelData:20,display:{Name:'{\"text\":\"Cloudwood Sword\",\"italic\":false,\"color\":\"light_purple\"}'},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:6,Operation:0,UUIDLeast:323355,UUIDMost:876959,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:2.0,Operation:0,UUIDLeast:245942,UUIDMost:648348,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.2,Operation:2,UUIDLeast:42477,UUIDMost:607042,Slot:\"mainhand\"}]}"
+  }
+}

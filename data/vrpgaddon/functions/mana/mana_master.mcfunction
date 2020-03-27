@@ -1,0 +1,1 @@
+execute as @a[nbt={SelectedItem:{id:"minecraft:book",Count:1b,tag:{Tome:1}}}] run title @s actionbar ["",{"text":"<❈ Mana - ","color":"light_purple"},{"score":{"name":"@s","objective":"mana"},"color":"light_purple"},{"text":" ❈>","color":"light_purple"}]

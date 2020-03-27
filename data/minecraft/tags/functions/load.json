@@ -1,5 +1,8 @@
 {
 	"values":[
-		"vrpg:master/setup"
+		"vrpg:master/setup",
+		"vrpgaddon:master/setup",
+		"mm:load",
+		"rng:load"
 	]
 }
