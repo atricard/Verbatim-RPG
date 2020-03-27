@@ -9,6 +9,6 @@
   "result": {
     "item": "minecraft:diamond_sword",
     "count": 1,
-    "nbt": "{verbatim:{id:6,item:1b,weapon:1b,max_durability:4000,durability:4000,base_durability:1561},CustomModelData:17,display:{Name:'{\"text\":\"Adamantine Sword\",\"italic\":false,\"color\":\"light_purple\"}'},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:10,Operation:0,UUIDLeast:323355,UUIDMost:876959,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:1.2,Operation:0,UUIDLeast:245942,UUIDMost:648348,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:-0.1,Operation:2,UUIDLeast:42477,UUIDMost:607042,Slot:\"mainhand\"}]}"
+    "nbt": "{verbatim:{id:6,item:1b,weapon:1b,max_durability:4000,durability:4000,base_durability:1561},CustomModelData:17,display:{Name:'{\"text\":\"Adamantine Sword\",\"italic\":false,\"color\":\"white\"}'},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:10,Operation:0,UUIDLeast:323355,UUIDMost:876959,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:1.2,Operation:0,UUIDLeast:245942,UUIDMost:648348,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:-0.1,Operation:2,UUIDLeast:42477,UUIDMost:607042,Slot:\"mainhand\"}]}"
   }
 }

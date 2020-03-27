@@ -11,6 +11,6 @@
   "result": {
     "item": "minecraft:diamond_sword",
     "count": 1,
-    "nbt": "{verbatim:{id:11,item:1b,weapon:1b,max_durability:2250,durability:2250,base_durability:1561},CustomModelData:21,display:{Name:'{\"text\":\"Obsidian Sword\",\"italic\":false,\"color\":\"light_purple\"}'},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDLeast:323355,UUIDMost:876959,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:1.6,Operation:0,UUIDLeast:245942,UUIDMost:648348,Slot:\"mainhand\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:0.2,Operation:1,UUIDLeast:817592,UUIDMost:126306,Slot:\"mainhand\"}]}"
+    "nbt": "{verbatim:{id:11,item:1b,weapon:1b,max_durability:2250,durability:2250,base_durability:1561},CustomModelData:21,display:{Name:'{\"text\":\"Obsidian Sword\",\"italic\":false,\"color\":\"white\"}'},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDLeast:323355,UUIDMost:876959,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:1.6,Operation:0,UUIDLeast:245942,UUIDMost:648348,Slot:\"mainhand\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:0.2,Operation:1,UUIDLeast:817592,UUIDMost:126306,Slot:\"mainhand\"}]}"
   }
 }
