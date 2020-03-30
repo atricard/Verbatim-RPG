@@ -1,3 +1,0 @@
-data remove block ~ ~ ~ Items[{Slot:15b}]
-data modify block ~ ~ ~ Items[{Slot:15b}] merge value {id:"minecraft:diamond_sword",Count:1b,tag:{verbatim:{id:9,item:1b,weapon:1b,max_durability:1561,durability:1561,base_durability:1561},CustomModelData:19,display:{Name:'{"text":"Chameleon Sword","italic":false,"color":"white"}'},AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:7,Operation:0,UUIDLeast:323355,UUIDMost:876959,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:1.6,Operation:0,UUIDLeast:245942,UUIDMost:648348,Slot:"mainhand"}]}}
-tag @s add v_has_output

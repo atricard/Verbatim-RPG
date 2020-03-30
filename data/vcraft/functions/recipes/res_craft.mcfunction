@@ -1,0 +1,2 @@
+execute if score @s craftID matches 0 run replaceitem block ~ ~ ~ container.15 minecraft:diamond_sword{display:{Name:'{"text":"Adamantine Sword","italic":false}'},CustomModelData:17} 1
+execute if score @s craftID matches 0 run scoreboard players operation @s craftCount *= #1 objd_consts

@@ -1,3 +1,0 @@
-data remove block ~ ~ ~ Items[{Slot:15b}]
-data modify block ~ ~ ~ Items[{Slot:15b}] merge value {id:"minecraft:stone_sword",Count:1b,tag:{verbatim:{id:8,item:1b,weapon:1b,max_durability:1000,durability:1000,base_durability:131},CustomModelData:16,display:{Name:'{"text":"Acid Sword","italic":false,"color":"white"}'},AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:7,Operation:0,UUIDLeast:323355,UUIDMost:876959,Slot:"mainhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:1.6,Operation:0,UUIDLeast:245942,UUIDMost:648348,Slot:"mainhand"}]}}
-tag @s add v_has_output

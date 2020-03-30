@@ -3,6 +3,6 @@
 	"values":[
 		"vrpg:master/run",
 		"vrpgaddon:master/run",
-		"mm:tick"
+		"vcraft:main"
 	]
 }

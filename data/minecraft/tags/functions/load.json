@@ -2,7 +2,7 @@
 	"values":[
 		"vrpg:master/setup",
 		"vrpgaddon:master/setup",
-		"mm:load",
+		"vcraft:load",
 		"rng:load"
 	]
 }
