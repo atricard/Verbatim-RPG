@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Skills"
+        },
+        "description": {
+            "text": "Add these on your resume",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/dark_oak_planks.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

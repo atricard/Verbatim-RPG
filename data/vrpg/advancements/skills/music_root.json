@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Musical Instrument"
+        },
+        "description": {
+            "text": "Music to my ears",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:note_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "vrpg:skills/root"
+}

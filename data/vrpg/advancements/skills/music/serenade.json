@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Serenade"
+        },
+        "description": {
+            "text": "Play to a merchant to drive the prices down\n\nRequirement: Play a song 10 times, Trade 20 times",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vrpg:skills/music_root"
+}

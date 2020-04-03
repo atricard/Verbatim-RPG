@@ -1,1 +1,0 @@
-execute if score @s smithingLVL matches 1

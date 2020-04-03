@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "vrpg:skills/mechanics/hurt"
+    }
+}

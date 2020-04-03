@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Snake Charmer"
+        },
+        "description": {
+            "text": "Monsters in a 10 block radius will become passive when you play\n\nRequirement: Play a song 50 times",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:music_disc_13"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vrpg:skills/music_root"
+}

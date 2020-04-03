@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Combat"
+        },
+        "description": {
+            "text": "Time to strike",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "vrpg:skills/root"
+}

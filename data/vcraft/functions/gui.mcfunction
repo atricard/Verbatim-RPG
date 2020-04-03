@@ -16,5 +16,3 @@ replaceitem block ~ ~ ~ container.23 barrier{verbatim:{gui:1b},CustomModelData:1
 replaceitem block ~ ~ ~ container.24 barrier{verbatim:{gui:1b},CustomModelData:10,display:{Name:'""'}}
 replaceitem block ~ ~ ~ container.25 barrier{verbatim:{gui:1b},CustomModelData:10,display:{Name:'""'}}
 replaceitem block ~ ~ ~ container.26 barrier{verbatim:{gui:1b},CustomModelData:10,display:{Name:'""'}}
-
-data merge entity @s {Fire:20s}

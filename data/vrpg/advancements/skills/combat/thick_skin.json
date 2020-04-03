@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Thick Skin"
+        },
+        "description": {
+            "text": "Permanent Resistance I\n\nRequirement: Take 10,000 damage overall",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vrpg:skills/combat/iron_reflex"
+}

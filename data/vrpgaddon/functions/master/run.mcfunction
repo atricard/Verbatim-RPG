@@ -7,6 +7,4 @@ execute as @a run function vrpgaddon:mana/add_mana
 execute as @e[type=armor_stand,tag=spell,tag=ray] at @s run function vrpgaddon:lectern/raycast/master
 execute as @e[scores={currentDamage=1..}] run function vrpgaddon:master/damage
 
-function vrpgaddon:lectern/raycast/effects/mark
-
 function vrpgaddon:npcs/master

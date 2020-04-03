@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Novice Lockpicker"
+        },
+        "description": {
+            "text": "50% chance to open locks\n\nRequirement: Pick 5 locks",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:tripwire_hook"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vrpg:skills/lock_root"
+}

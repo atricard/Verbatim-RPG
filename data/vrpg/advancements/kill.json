@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "rewards": {
+        "function": "vrpg:skills/mechanics/kill"
+    }
+}

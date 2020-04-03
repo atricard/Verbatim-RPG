@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Iron Reflexes"
+        },
+        "description": {
+            "text": "Applied Resistance II after taking damage\n\nRequirement: Take 2,000 damage overall",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vrpg:skills/combat_root"
+}

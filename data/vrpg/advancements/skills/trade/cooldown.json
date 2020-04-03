@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Instant Restock"
+        },
+        "description": {
+            "text": "Merchants instantly restock\n\nRequirement: Trade 150 times",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:emerald_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vrpg:skills/trade/trash"
+}

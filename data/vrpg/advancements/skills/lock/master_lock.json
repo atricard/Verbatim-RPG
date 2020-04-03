@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Skeleton Keys"
+        },
+        "description": {
+            "text": "100% chance to pick locks\n\nRequirement: Pick 75 locks",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vrpg:skills/lock/gold_touch"
+}

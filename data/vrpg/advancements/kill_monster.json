@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "team": "monster"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "vrpg:skills/mechanics/kill_monster"
+    }
+}

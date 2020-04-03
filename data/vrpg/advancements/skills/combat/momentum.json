@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Momentum"
+        },
+        "description": {
+            "text": "Applied Strength I and Haste II after dealing damage\n\nRequirement: Deal 2,000 damage overall",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:diamond_axe"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vrpg:skills/combat_root"
+}

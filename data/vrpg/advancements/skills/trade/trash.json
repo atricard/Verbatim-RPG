@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "One Man's Trash..."
+        },
+        "description": {
+            "text": "Sell any item that you put in your offhand for 1 Drachma\n\nRequirement: Trade 100 times",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "vrpg:skills/trade/persuade"
+}

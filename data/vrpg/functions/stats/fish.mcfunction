@@ -1,1 +1,0 @@
-execute if score @s fishLvl >= @s fishMax run function vrpg:stats/fishlvlup
