@@ -27,6 +27,34 @@ scoreboard objectives add regenLootTimer dummy
 #####################################
 scoreboard objectives add dungeonTaper dummy
 #####################################
+scoreboard objectives add leather_Head dummy
+scoreboard objectives add leather_Chest dummy
+scoreboard objectives add leather_Legs dummy
+scoreboard objectives add leather_Boots dummy
+
+scoreboard objectives add custom_Head_A dummy
+scoreboard objectives add custom_Chest_A dummy
+scoreboard objectives add custom_Legs_A dummy
+scoreboard objectives add custom_Boots_A dummy
+
+scoreboard objectives add temp_0 dummy
+scoreboard objectives add temp_1 dummy
+scoreboard objectives add temp_2 dummy
+scoreboard objectives add temp_3 dummy
+scoreboard objectives add thousand dummy
+###
+scoreboard players set v_calc leather_Head 55
+scoreboard players set v_calc leather_Chest 80
+scoreboard players set v_calc leather_Legs 75
+scoreboard players set v_calc leather_Boots 65
+
+scoreboard players set v_calc custom_Head_A 480
+scoreboard players set v_calc custom_Chest_A 590
+scoreboard players set v_calc custom_Legs_A 560
+scoreboard players set v_calc custom_Boots_A 410
+
+scoreboard players set v_calc thousand 1000
+#####################################
 gamerule mobGriefing false
 gamerule doInsomnia false
 
