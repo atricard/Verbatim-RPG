@@ -14,6 +14,11 @@ scoreboard objectives add carrot minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add doDamage minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add takeDamage minecraft.custom:minecraft.damage_taken
 #####################################
+scoreboard objectives add damage_Head dummy
+scoreboard objectives add damage_Chest dummy
+scoreboard objectives add damage_Leg dummy
+scoreboard objectives add damage_Boot dummy
+#####################################
 scoreboard objectives add xPoint dummy
 scoreboard objectives add yPoint dummy
 scoreboard objectives add zPoint dummy

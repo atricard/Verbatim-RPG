@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "hurt": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_lightning": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "vrpg:skills/mechanics/hurt_armor"
+    }
+}
