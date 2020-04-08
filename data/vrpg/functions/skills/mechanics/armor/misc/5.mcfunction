@@ -23,7 +23,7 @@ scoreboard players operation v_calc temp_1 -= @s damage_Leg
 scoreboard players operation v_calc temp_2 -= @s damage_Chest
 scoreboard players operation v_calc temp_3 -= @s damage_Head
 
-execute store result block ~ 255 ~ Items[{Slot:0b}].tag.Damage int 0.001 run scoreboard players get v_calc temp_0
-execute store result block ~ 255 ~ Items[{Slot:1b}].tag.Damage int 0.001 run scoreboard players get v_calc temp_1
-execute store result block ~ 255 ~ Items[{Slot:2b}].tag.Damage int 0.001 run scoreboard players get v_calc temp_2
-execute store result block ~ 255 ~ Items[{Slot:3b}].tag.Damage int 0.001 run scoreboard players get v_calc temp_3
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{v_customArmor:1b}}]}] run execute store result block ~ 255 ~ Items[{Slot:0b}].tag.Damage int 0.001 run scoreboard players get v_calc temp_0
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{v_customArmor:1b}}]}] run execute store result block ~ 255 ~ Items[{Slot:1b}].tag.Damage int 0.001 run scoreboard players get v_calc temp_1
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{v_customArmor:1b}}]}] run execute store result block ~ 255 ~ Items[{Slot:2b}].tag.Damage int 0.001 run scoreboard players get v_calc temp_2
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{v_customArmor:1b}}]}] run execute store result block ~ 255 ~ Items[{Slot:3b}].tag.Damage int 0.001 run scoreboard players get v_calc temp_3
