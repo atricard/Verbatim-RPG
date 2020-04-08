@@ -4,7 +4,7 @@
             "text": "Heavy Metal"
         },
         "description": {
-            "text": "Monsters in a 10 block radius will take damage when you play\n\nRequirement: Play a song 100 times, Deal 200 damage overall",
+            "text": "Monsters in a 10 block radius will take damage when you play\n\nRequirement: Play a song 100 times, Deal 2000 damage overall",
             "color": "green"
         },
         "icon": {

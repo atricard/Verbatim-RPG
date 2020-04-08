@@ -10,6 +10,7 @@ scoreboard objectives add pickLock dummy
 scoreboard objectives add breakPick dummy
 scoreboard objectives add track dummy
 scoreboard objectives add playSong dummy
+scoreboard objectives add neutral_time dummy
 scoreboard objectives add carrot minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add doDamage minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add takeDamage minecraft.custom:minecraft.damage_taken

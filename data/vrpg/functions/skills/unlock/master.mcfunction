@@ -6,10 +6,9 @@ execute as @s[scores={pickLock=75..}] run advancement grant @s only vrpg:skills/
 execute as @s[scores={breakPick=10..}] run advancement grant @s only vrpg:skills/lock/iron_grip
 execute as @s[scores={breakPick=50..}] run advancement grant @s only vrpg:skills/lock/unbreakable
 #
-execute as @s[scores={trade=15..}] run advancement grant @s only vrpg:skills/trade/persuade
+execute as @s[scores={trade=15..}] run advancement grant @s only vrpg:skills/trade/charisma
 
-execute as @s[scores={trade=5..}] run advancement grant @s only vrpg:skills/trade/cards
-execute as @s[scores={trade=100..}] run advancement grant @s only vrpg:skills/trade/trash
+execute as @s[scores={trade=50..}] run advancement grant @s only vrpg:skills/trade/charisma
 execute as @s[scores={trade=150..}] run advancement grant @s only vrpg:skills/trade/cooldown
 #
 execute as @s[scores={takeDamage=20000..}] run advancement grant @s only vrpg:skills/combat/iron_reflex
@@ -23,5 +22,5 @@ execute as @s[scores={doDamage=30000..,trade=10..}] run advancement grant @s onl
 execute as @s[scores={playSong=10..,trade=20..}] run advancement grant @s only vrpg:skills/music/serenade
 
 execute as @s[scores={playSong=50..}] run advancement grant @s only vrpg:skills/music/snake_charmer
-execute as @s[scores={playSong=100..,doDamage=2000..}] run advancement grant @s only vrpg:skills/music/serenade
+execute as @s[scores={playSong=100..,doDamage=20000..}] run advancement grant @s only vrpg:skills/music/serenade
 #
