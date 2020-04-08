@@ -8,3 +8,4 @@ scoreboard players reset @s damage_Leg
 scoreboard players reset @s damage_Chest
 scoreboard players reset @s damage_Head
 tag @s remove get_armor
+tag @s remove reduce
