@@ -1,6 +1,6 @@
 scoreboard players add @s track 1
 execute as @s[scores={track=1..}] run particle note ~ ~1 ~ 1 1 1 1 1
-execute as @s[scores={track=1..},advancements={vrpg:skills/music/snake_charmer=true}] run scoreboard players add @e[team=monster,distance=..10,scores={neutral_time=..0}] neutral_time 200
+execute as @s[scores={track=1..},advancements={vrpg:skills/music/snake_charmer=true}] run scoreboard players set @e[team=monster,distance=..10] neutral_time 200
 execute as @s[scores={track=1..},advancements={vrpg:skills/music/heavy_metal=true}] run effect give @e[team=monster,distance=..10] wither 3 1 true
 execute at @s[scores={track=1}] run playsound minecraft:block.note_block.flute block @a[distance=..16] ~ ~ ~ 1 1.59 1
 execute at @s[scores={track=1}] run playsound minecraft:block.note_block.flute block @a[distance=..16] ~ ~ ~ 1 0.59 1
@@ -53,5 +53,6 @@ execute at @s[scores={track=133}] run playsound minecraft:block.note_block.flute
 tag @s[scores={track=133}] remove playing
 execute as @s[scores={track=133},advancements={vrpg:skills/music/serenade=true}] run effect give @s hero_of_the_village 15 0 true
 execute as @s[scores={track=133},advancements={vrpg:skills/music/serenade=true}] run playsound minecraft:entity.player.levelup player @s
-scoreboard players reset @s[scores={track=133}] carrot
-scoreboard players reset @s[scores={track=133}] track
+scoreboard players add @s[scores={track=133..}] playSong 1
+scoreboard players reset @s[scores={track=133..}] carrot
+scoreboard players reset @s[scores={track=133..}] track

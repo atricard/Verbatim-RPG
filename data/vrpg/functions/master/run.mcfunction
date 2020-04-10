@@ -1,4 +1,4 @@
-execute as @a at @s positioned ^ ^ ^100 positioned ~ 0 ~ unless entity @e[type=area_effect_cloud,tag=vrpgmarker,distance=..150] run function vrpg:structuregen/masterbase
+execute as @a in overworld at @s positioned ^ ^ ^100 positioned ~ 0 ~ unless entity @e[type=area_effect_cloud,tag=vrpgmarker,distance=..150] run function vrpg:structuregen/masterbase
 execute as @e[type=armor_stand,tag=vrpggen] at @s run function vrpg:structuregen/spreadandspawn
 function vrpg:master/dungeonroomgen
 
@@ -15,6 +15,8 @@ execute as @e[type=armor_stand,tag=decor] at @s if block ~ ~0.7 ~0.7 minecraft:a
 
 execute as @e[type=area_effect_cloud,tag=regrowLoot] at @s if block ~ ~ ~ air run function vrpg:structuregen/dungeon/loot/timer_regen
 execute as @e[type=area_effect_cloud,tag=regrowLoot] at @s if block ~ ~ ~ chest{Items:[]} run function vrpg:structuregen/dungeon/loot/timer_regen
+
+execute as @e[type=bat,tag=placeCloudwood] at @s run function vrpg:master/place
 
 function vrpg:master/mark
 
