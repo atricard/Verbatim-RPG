@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ acacia_planks run function airship:switch/frame/setblock/acacia_planks

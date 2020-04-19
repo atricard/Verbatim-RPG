@@ -1,0 +1,1 @@
+execute as @e[type=shulker,tag=v_fake_block,distance=..0,sort=nearest,limit=1] run teleport @s 29999995 -250 29999995

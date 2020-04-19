@@ -1,0 +1,133 @@
+summon item_frame ~-5 ~11 ~-5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-5 ~11 ~-4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-5 ~11 ~-3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-5 ~11 ~-2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-5 ~11 ~-1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-5 ~11 ~0 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-5 ~11 ~1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-5 ~11 ~2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-5 ~11 ~3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-5 ~11 ~4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-5 ~11 ~5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+
+summon item_frame ~-4 ~11 ~-5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-4 ~11 ~-4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-4 ~11 ~-3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-4 ~11 ~-2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-4 ~11 ~-1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-4 ~11 ~0 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-4 ~11 ~1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-4 ~11 ~2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-4 ~11 ~3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-4 ~11 ~4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-4 ~11 ~5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+
+summon item_frame ~-3 ~11 ~-5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-3 ~11 ~-4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-3 ~11 ~-3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-3 ~11 ~-2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-3 ~11 ~-1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-3 ~11 ~0 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-3 ~11 ~1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-3 ~11 ~2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-3 ~11 ~3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-3 ~11 ~4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-3 ~11 ~5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+
+summon item_frame ~-2 ~11 ~-5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-2 ~11 ~-4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-2 ~11 ~-3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-2 ~11 ~-2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-2 ~11 ~-1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-2 ~11 ~0 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-2 ~11 ~1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-2 ~11 ~2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-2 ~11 ~3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-2 ~11 ~4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-2 ~11 ~5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+
+summon item_frame ~-1 ~11 ~-5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-1 ~11 ~-4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-1 ~11 ~-3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-1 ~11 ~-2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-1 ~11 ~-1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-1 ~11 ~0 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-1 ~11 ~1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-1 ~11 ~2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-1 ~11 ~3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-1 ~11 ~4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~-1 ~11 ~5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+
+summon item_frame ~0 ~11 ~-5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~0 ~11 ~-4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~0 ~11 ~-3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~0 ~11 ~-2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~0 ~11 ~-1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~0 ~11 ~0 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~0 ~11 ~1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~0 ~11 ~2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~0 ~11 ~3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~0 ~11 ~4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~0 ~11 ~5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+
+summon item_frame ~1 ~11 ~-5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~1 ~11 ~-4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~1 ~11 ~-3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~1 ~11 ~-2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~1 ~11 ~-1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~1 ~11 ~0 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~1 ~11 ~1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~1 ~11 ~2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~1 ~11 ~3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~1 ~11 ~4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~1 ~11 ~5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+
+summon item_frame ~2 ~11 ~-5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~2 ~11 ~-4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~2 ~11 ~-3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~2 ~11 ~-2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~2 ~11 ~-1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~2 ~11 ~0 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~2 ~11 ~1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~2 ~11 ~2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~2 ~11 ~3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~2 ~11 ~4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~2 ~11 ~5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+
+summon item_frame ~3 ~11 ~-5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~3 ~11 ~-4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~3 ~11 ~-3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~3 ~11 ~-2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~3 ~11 ~-1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~3 ~11 ~0 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~3 ~11 ~1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~3 ~11 ~2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~3 ~11 ~3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~3 ~11 ~4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~3 ~11 ~5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+
+summon item_frame ~4 ~11 ~-5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~4 ~11 ~-4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~4 ~11 ~-3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~4 ~11 ~-2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~4 ~11 ~-1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~4 ~11 ~0 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~4 ~11 ~1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~4 ~11 ~2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~4 ~11 ~3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~4 ~11 ~4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~4 ~11 ~5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+
+summon item_frame ~5 ~11 ~-5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~5 ~11 ~-4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~5 ~11 ~-3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~5 ~11 ~-2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~5 ~11 ~-1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~5 ~11 ~0 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~5 ~11 ~1 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~5 ~11 ~2 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~5 ~11 ~3 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~5 ~11 ~4 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+summon item_frame ~5 ~11 ~5 {Invulnerable:1b,Invisible:1b,Fixed:1b,Item:{id:"minecraft:light_blue_stained_glass_pane",Count:1b},Tags:["scan_frame"]}
+
+tag @s remove scan_ship

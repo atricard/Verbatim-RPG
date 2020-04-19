@@ -1,0 +1,2 @@
+summon minecraft:shulker ~ ~ ~ {Tags:["v_fake_block","v_solid"],NoGravity:1b,Silent:1b,Invulnerable:1b,DeathLootTable:"",NoAI:1b,AttachFace:0b,ActiveEffects:[{Id:14b,Duration:2147483647,ShowParticles:false}]}
+scoreboard players set @s has_shulker 1

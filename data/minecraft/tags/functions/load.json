@@ -3,6 +3,6 @@
 		"vrpg:master/setup",
 		"vrpgaddon:master/setup",
 		"vcraft:load",
-		"rng:load"
+		"airship:init"
 	]
 }
