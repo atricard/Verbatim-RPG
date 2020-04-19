@@ -1,0 +1,1 @@
+give @s bat_spawn_egg{display:{Name:'{"text":"Airship Core","italic":false}'},CustomModelData:4000,EntityTag:{Silent:1b,Tags:["placeDockCore"]}}
