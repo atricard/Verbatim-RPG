@@ -1,1 +1,0 @@
-setblock ~ ~ ~ purpur_block

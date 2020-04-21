@@ -1,1 +1,0 @@
-setblock ~ ~ ~ acacia_planks

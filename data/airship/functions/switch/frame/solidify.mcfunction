@@ -1,2 +1,0 @@
-execute if entity @e[type=item_frame,dx=0,tag=ship_block,tag=v_ship_acacia_planks] run function airship:switch/frame/setblock/acacia_planks
-execute if entity @e[type=item_frame,dx=0,tag=ship_block,tag=v_ship_purpur_block] run function airship:switch/frame/setblock/purpur_block
