@@ -1,1 +1,1 @@
-execute as @a[nbt={SelectedItem:{id:"minecraft:book",Count:1b,tag:{Tome:1}}}] run title @s actionbar ["",{"text":"<❈ Mana - ","color":"light_purple"},{"score":{"name":"@s","objective":"mana"},"color":"light_purple"},{"text":" ❈>","color":"light_purple"}]
+execute as @a[nbt={SelectedItem:{id:"minecraft:firework_star",Count:1b,tag:{Talisman:1b}}}] run title @s actionbar ["",{"text":"<魂 Mana - ","color":"dark_red"},{"score":{"name":"@s","objective":"mana"},"color":"dark_red"},{"text":" 魂>","color":"dark_red"}]

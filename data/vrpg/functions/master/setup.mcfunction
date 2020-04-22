@@ -61,6 +61,7 @@ gamerule doInsomnia false
 
 team add players
 team add monster
+team add cruisable
 team modify players seeFriendlyInvisibles false
 #####################################
 tellraw @a ["",{"text":"[Verbatim RPG]","color":"dark_red"},{"text":" Reloaded!","color":"gold"}]

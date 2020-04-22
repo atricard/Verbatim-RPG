@@ -5,5 +5,5 @@ playsound entity.blaze.shoot player @a
 
 scoreboard players remove @s mana 10
 
-kill @e[type=item,nbt={Item:{id:"minecraft:book",Count:1b,tag:{display:{Name:'[{"text":"Fiery Tome","color":"light_purple","italic":false},{"text":" [10 ❈]","color":"light_purple","italic":false}]'}}}}]
-replaceitem entity @s weapon.mainhand book{Tome:1,HideFlags:1,display:{Name:'[{"text":"Fiery Tome","color":"light_purple","italic":false},{"text":" [10 ❈]","color":"light_purple","italic":false}]',Lore:['{"text":"This tome seems well-made.","color":"gray","italic":false}']},Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1
+kill @e[type=item,nbt={Item:{id:"minecraft:firework_star",Count:1b,tag:{display:{Name:'[{"text":"Fiery Talisman","color":"dark_red","italic":false},{"text":" [10 魂]","color":"dark_red","italic":false}]'}}}}]
+replaceitem entity @s weapon.mainhand firework_star{Explosion:{Type:0,Colors:[I;12535296]},Talisman:1b,CustomModelData:7000,HideFlags:33,display:{Name:'[{"text":"Fiery Talisman","color":"dark_red","italic":false},{"text":" [10 魂]","color":"dark_red","italic":false}]',Lore:['{"text":"This talisman seems well-made.","color":"gray","italic":false}']},Enchantments:[{id:"minecraft:protection",lvl:1s}]} 1

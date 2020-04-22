@@ -8,7 +8,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:gold_nugget"
+            "item": "minecraft:barrier"
         },
         "frame": "task",
         "show_toast": false,
