@@ -23,8 +23,8 @@ execute at @e[type=item_frame,tag=v_ship_core] positioned ~-5 ~-5 ~-5 if entity 
 execute at @e[type=item_frame,tag=v_ship_core] positioned ~-5 ~-5 ~-5 if entity @a[dx=11,dy=11,dz=11,x_rotation=-90..67,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Name:'{"text":"Floatstone Totem","color":"yellow","italic":false}'},HideFlags:4,Unbreakable:1b,CustomModelData:110}}},scores={carrot=1..}] as @e[type=item_frame,tag=v_ship_block,tag=!new_block,dx=11,dy=11,dz=11] at @s run function airship:controls/move_up
 execute at @e[type=item_frame,tag=v_ship_core] positioned ~-5 ~-5 ~-5 if entity @a[dx=11,dy=11,dz=11,x_rotation=67..90,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{display:{Name:'{"text":"Floatstone Totem","color":"yellow","italic":false}'},HideFlags:4,Unbreakable:1b,CustomModelData:110}}},scores={carrot=1..}] as @e[type=item_frame,tag=v_ship_block,tag=!new_block,dx=11,dy=11,dz=11] at @s run function airship:controls/move_down
 #
-execute as @e[type=item_frame,tag=v_ship_acacia_planks,tag=new_block] at @s run setblock ~ ~ ~ acacia_planks
-execute as @e[type=item_frame,tag=v_ship_nether_bricks,tag=new_block] at @s run setblock ~ ~ ~ nether_bricks
+function airship:reset_block
+#
 execute as @e[type=item_frame,tag=v_ship_core_fake,tag=new_block] at @s run setblock ~ ~ ~ smooth_stone
 execute as @e[type=item_frame,tag=v_ship_core_fake,tag=new_block] at @s run summon minecraft:item_frame ~ ~ ~ {Tags:["v_ship_block","v_ship_core"],Facing:2b,Invulnerable:1b,Silent:1b,Invisible:1b,Fixed:1b}
 execute as @e[type=item_frame,tag=v_ship_core_fake,tag=new_block] at @s align xyz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~ ~ {ArmorItems:[{},{},{},{Count:1b,id:"barrier",tag:{CustomModelData:4000}}],Tags:["v_ship_core_stand"],Invisible:1b,Marker:1b}
