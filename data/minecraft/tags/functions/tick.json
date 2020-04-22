@@ -3,6 +3,7 @@
 	"values":[
 		"vrpg:master/run",
 		"vrpgaddon:master/run",
+		"vcraft:main",
 		"airship:main"
 	]
 }
