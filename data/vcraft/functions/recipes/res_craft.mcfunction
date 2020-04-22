@@ -40,3 +40,11 @@ execute if score @s craftID matches 11 run scoreboard players operation @s craft
 
 execute if score @s craftID matches 12 run replaceitem block ~ ~ ~ container.15 minecraft:leather_boots{HideFlags:4,Unbreakable:1b,customDur:450,v_customArmor:1b,display:{Name:'{"text":"Dragonscale Boots","italic":false}',color:7037301},AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;767376104,-168084615,-1253206766,315672676],Slot:"feet"}]} 1
 execute if score @s craftID matches 12 run scoreboard players operation @s craftCount *= #1 objd_consts
+
+#floatstone wand
+execute if score @s craftID matches 13 run replaceitem block ~ ~ ~ container.15 minecraft:carrot_on_a_stick{display:{Name:'{"text":"Floatstone Wand","color":"yellow","italic":false}'},HideFlags:4,Unbreakable:1b,CustomModelData:110} 1
+execute if score @s craftID matches 13 run scoreboard players operation @s craftCount *= #1 objd_consts
+
+#airship core
+execute if score @s craftID matches 14 run replaceitem block ~ ~ ~ container.15 minecraft:bat_spawn_egg{display:{Name:'{"text":"Airship Core","italic":false}'},CustomModelData:4000,EntityTag:{Silent:1b,Tags:["placeDockCore"]}} 1
+execute if score @s craftID matches 14 run scoreboard players operation @s craftCount *= #1 objd_consts
