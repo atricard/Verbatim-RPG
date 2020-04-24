@@ -9,5 +9,7 @@ function vrpg:master/mark
 execute as @a at @s run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 netherrack replace diorite
 execute as @a at @s run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace nether_portal
 
+execute as @a run function vrpg:master/armor
+
 execute as @a at @s run function vrpg:skills/unlock/master
 execute as @a at @s run function vrpg:skills/mechanics/master

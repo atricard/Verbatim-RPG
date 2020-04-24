@@ -56,6 +56,8 @@ scoreboard players set v_calc custom_Boots_A 410
 
 scoreboard players set v_calc thousand 1000
 #####################################
+scoreboard objectives add wear_gold dummy
+#####################################
 gamerule mobGriefing false
 gamerule doInsomnia false
 
