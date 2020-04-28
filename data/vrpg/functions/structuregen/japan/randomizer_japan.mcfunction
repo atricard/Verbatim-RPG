@@ -1,29 +1,36 @@
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_cloudwood_0","ground_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_cloudwood_1","ground_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_cloudwood_2","ground_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_cloudwood_3","ground_structure"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_cloudwood_0"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_cloudwood_1"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_cloudwood_2"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_cloudwood_3"]}
 
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_tori_shrine_0","ground_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_tori_shrine_90","ground_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_tori_shrine_180","ground_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_tori_shrine_270","ground_structure"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_tori_shrine_0"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_tori_shrine_90"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_tori_shrine_180"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_tori_shrine_270"]}
 
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_house_0","ground_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_house_90","ground_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_house_180","ground_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_house_270","ground_structure"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_airship_ruins_basic_0"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_airship_ruins_basic_90"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_airship_ruins_basic_180"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_airship_ruins_basic_270"]}
 
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_swordsmith_0","ground_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_swordsmith_90","ground_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_swordsmith_180","ground_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_swordsmith_270","ground_structure"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_airship_ruins_bee_sakura_0"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_airship_ruins_bee_sakura_90"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_airship_ruins_bee_sakura_180"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_airship_ruins_bee_sakura_270"]}
 
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_floating_0","air_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_floating_90","air_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_floating_180","air_structure"]}
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["japanRNG","japan_floating_270","air_structure"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_airship_ruins_bee_0"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_airship_ruins_bee_90"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_airship_ruins_bee_180"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","japan_airship_ruins_bee_270"]}
 
-tag @e[type=area_effect_cloud,tag=japanRNG,limit=1,sort=random,distance=..1] add japanGo
-execute as @e[tag=japanGo] run kill @e[type=area_effect_cloud,tag=!japanGo,distance=..1]
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","townGen"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","townGen"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","townGen"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","townGen"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","townGen"]}
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Fixed:1b,Tags:["japanRNG","townGen"]}
+
+tag @e[type=item_frame,tag=japanRNG,limit=1,sort=random,distance=..1] add japanGo
+execute as @e[tag=japanGo] run kill @e[type=item_frame,tag=!japanGo,distance=..1]
 
 kill @s

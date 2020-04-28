@@ -8,7 +8,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:barrier"
+            "item": "minecraft:emerald"
         },
         "frame": "task",
         "show_toast": false,

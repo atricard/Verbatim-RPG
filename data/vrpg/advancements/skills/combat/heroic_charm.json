@@ -8,7 +8,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:golden_helmet"
+            "item": "minecraft:turtle_helmet"
         },
         "frame": "task",
         "show_toast": false,
