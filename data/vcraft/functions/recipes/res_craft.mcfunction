@@ -48,3 +48,35 @@ execute if score @s craftID matches 13 run scoreboard players operation @s craft
 #airship core
 execute if score @s craftID matches 14 run replaceitem block ~ ~ ~ container.15 minecraft:bat_spawn_egg{display:{Name:'{"text":"Airship Core","italic":false}'},CustomModelData:4000,EntityTag:{Silent:1b,Tags:["placeDockCore"]}} 1
 execute if score @s craftID matches 14 run scoreboard players operation @s craftCount *= #1 objd_consts
+####
+###
+####
+#sword
+execute if score @s craftID matches 15 run replaceitem block ~ ~ ~ container.15 minecraft:netherite_sword
+execute if score @s craftID matches 15 run scoreboard players operation @s craftCount *= #1 objd_consts
+#pick
+execute if score @s craftID matches 16 run replaceitem block ~ ~ ~ container.15 minecraft:netherite_pickaxe
+execute if score @s craftID matches 16 run scoreboard players operation @s craftCount *= #1 objd_consts
+#shovel
+execute if score @s craftID matches 17 run replaceitem block ~ ~ ~ container.15 minecraft:netherite_shovel
+execute if score @s craftID matches 17 run scoreboard players operation @s craftCount *= #1 objd_consts
+#hoe
+execute if score @s craftID matches 18 run replaceitem block ~ ~ ~ container.15 minecraft:netherite_hoe
+execute if score @s craftID matches 18 run scoreboard players operation @s craftCount *= #1 objd_consts
+#axe
+execute if score @s craftID matches 19 run replaceitem block ~ ~ ~ container.15 minecraft:netherite_axe
+execute if score @s craftID matches 19 run scoreboard players operation @s craftCount *= #1 objd_consts
+###
+###
+###
+execute if score @s craftID matches 20 run replaceitem block ~ ~ ~ container.15 minecraft:netherite_chestplate
+execute if score @s craftID matches 20 run scoreboard players operation @s craftCount *= #1 objd_consts
+
+execute if score @s craftID matches 21 run replaceitem block ~ ~ ~ container.15 minecraft:netherite_leggings
+execute if score @s craftID matches 21 run scoreboard players operation @s craftCount *= #1 objd_consts
+
+execute if score @s craftID matches 22 run replaceitem block ~ ~ ~ container.15 minecraft:netherite_helmet
+execute if score @s craftID matches 22 run scoreboard players operation @s craftCount *= #1 objd_consts
+
+execute if score @s craftID matches 23 run replaceitem block ~ ~ ~ container.15 minecraft:netherite_boots
+execute if score @s craftID matches 23 run scoreboard players operation @s craftCount *= #1 objd_consts

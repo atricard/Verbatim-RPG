@@ -63,7 +63,7 @@ gamerule doInsomnia false
 gamerule keepInventory true
 gamerule doPatrolSpawning false
 gamerule doTraderSpawning false
-worldborder set 1000 0
+worldborder set 3000 0
 
 team add players
 team add monster
